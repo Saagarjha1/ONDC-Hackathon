@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pincode Merchant Trie</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <form id="inputForm">
+    <div id="inputFields">
+      <!-- Initially one set of input fields -->
+      <input type="text" name="pincode" placeholder="Enter Pincode">
+      <input type="text" name="merchantId" placeholder="Enter Merchant ID">
+      <br>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <br>
+  <input type="text" id="searchPincodeInput" placeholder="Search Pincode">
+  <input type="text" id="searchMerchantIdInput" placeholder="Search Merchant ID">
+  <button onclick="search()">Search</button>
+  <div class="details" id="details"></div>
+  <button onclick="displaySavedInfo()">Display Saved Info</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
